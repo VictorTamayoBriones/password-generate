@@ -1,7 +1,11 @@
+import { Body } from "./components/body/Body"
+
 function App() {
 
   return (
-    <h1>Generador de contraseñas</h1>
+    <Body>
+      <h1>Generador de contraseñas</h1>
+    </Body>
   )
 }
 
