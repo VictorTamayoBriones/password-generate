@@ -1,4 +1,5 @@
-import { Body } from "./components/body/Body"
+import { Body } from "./components/body"
+
 
 function App() {
 
