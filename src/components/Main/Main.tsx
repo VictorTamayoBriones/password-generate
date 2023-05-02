@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 import { theme } from '../../theme';
 
-export const Body = styled.main`
+export const Main = styled.main`
     width: 100vw;
     height: 100vh;
     background: ${theme.bg};

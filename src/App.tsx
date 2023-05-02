@@ -1,14 +1,15 @@
 import { Container } from "./components/Container"
-import { Body } from "./components/body"
+import { Content } from "./components/Content"
+import { Main } from "./components/Main"
 
 function App() {
 
   return (
-    <Body>
+    <Main>
       <Container>
-        <h1>Generador de contraseñas</h1>
+        <Content/>
       </Container>
-    </Body>
+    </Main>
   )
 }
 
