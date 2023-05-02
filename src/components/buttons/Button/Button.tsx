@@ -1,7 +1,7 @@
 import { ButtonStyled } from "./button.style"
 
 interface Props{
-    text: string,
+    children: string,
     bg?: string,
     color?: string,
     width?: string,
@@ -10,7 +10,7 @@ interface Props{
 }
 
 
-function Button({text, bg, color, width, height,onClick}:Props) {
+function Button({children, bg, color, width, height,onClick}:Props) {
   return (
     <ButtonStyled 
         onClick={()=>onClick}
@@ -19,7 +19,7 @@ function Button({text, bg, color, width, height,onClick}:Props) {
         width={width}
         height={height}
     >
-        {text}
+        {children}
     </ButtonStyled>
   )
 }
