@@ -1,12 +1,15 @@
 import { ShowFieldStyled } from "./showField.style"
 import CopySVG from '../../assets/icons/copy';
 
+interface Props{
+  children: string
+}
 
-function ShowField() {
+function ShowField({children}:Props) {
   return (
     <ShowFieldStyled>
-        <p>ksadnaskjdkasjd</p>
-        <CopySVG/>
+      {children}
+      <CopySVG/>
     </ShowFieldStyled>
   )
 }

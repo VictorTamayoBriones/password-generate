@@ -1,12 +1,14 @@
 import { Button } from "../Buttons"
-import { ShowField } from "../ShowField"
+import { LenghtChar } from "../LengthChar"
+import { PasswordGenerated } from "../PasswordGenerated"
 import { ContentContainer, Title } from "./content.styles"
 
 function Content() {
   return (
     <ContentContainer>
       <Title>Generador de contraseña</Title>   
-      <ShowField/>
+      <PasswordGenerated/>
+      <LenghtChar/>
       <Button>Generar contraseña</Button>  
     </ContentContainer>
   )
