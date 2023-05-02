@@ -10,6 +10,8 @@ export const ShowFieldStyled = styled.div`
     p{
         width: 95%;
         color: ${theme.blue_dark};
+        font-size: 16px;
+        line-height: 24px;
     }
 
     svg{

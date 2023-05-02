@@ -1,3 +1,4 @@
+import { theme } from '@/theme';
 import styled from 'styled-components';
 
 export const ContentContainer = styled.div`
@@ -12,4 +13,5 @@ export const Title = styled.h2`
     font-size: 20px;
     line-height: 24px;
     text-align: center;
+    color: ${theme.blue_dark};
 `;
