@@ -14,7 +14,7 @@ export const AlertStyled = styled.div`
     border-radius: 4px;
     display: flex;
     overflow: hidden;
-    animation: showAlert 1s ease-in-out;
+    animation: showAlert 4s ease-in-out;
 
     svg{
         margin-top: 13px;
@@ -44,9 +44,17 @@ export const AlertStyled = styled.div`
             top: -80px;
             opacity: 0;
         }
-        100%{
+        25%{
             top: 80px;
             opacity: 1;
+        }
+        75%{
+            top: 80px;
+            opacity: 1;
+        }
+        100%{
+            top: -80px;
+            opacity: 0;
         }
     }
 `;

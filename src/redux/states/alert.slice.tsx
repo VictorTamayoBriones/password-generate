@@ -1,22 +1,22 @@
 import { createSlice } from "@reduxjs/toolkit";
 
 export interface IAlert{
-    isShowing: false
+  isShowing: false
 }
 
 const INITIAL_STATE: IAlert ={
-    isShowing: false
+  isShowing: false
 }
 
 export const alertSlice = createSlice({
   name: 'isShowAlert',
   initialState: INITIAL_STATE,
   reducers:{
-    showAlert: (state, action)=>{
-        console.log(action.payload)
-    }
+    handleAlert: (state, action)=>{
+      state.isShowing = action.payload
+    },
   }  
 })
 
-export const { showAlert } = alertSlice.actions
+export const { handleAlert } = alertSlice.actions
 export default alertSlice.reducer;
