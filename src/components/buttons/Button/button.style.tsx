@@ -18,4 +18,5 @@ export const ButtonStyled = styled.button<Props>`
     line-height: 24px;
     border: none;
     padding: 12px 16px;
+    cursor: pointer;
 `;

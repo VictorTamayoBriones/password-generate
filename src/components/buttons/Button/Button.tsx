@@ -13,7 +13,7 @@ interface Props{
 function Button({children, bg, color, width, height,onClick}:Props) {
   return (
     <ButtonStyled 
-        onClick={()=>onClick}
+        onClick={()=> onClick && onClick()}
         bg={bg}
         color={color}
         width={width}
