@@ -6,6 +6,7 @@ import Options from "../Options/Options"
 import { PasswordGenerated } from "../PasswordGenerated"
 import { ContentContainer, Title } from "./content.styles"
 import { AppStore } from '../../redux/store';
+import BtnGeneratePassword from "../BtnGeneratePassword/BtnGeneratePassword"
 
 function Content() {
 
@@ -18,7 +19,7 @@ function Content() {
       <LenghtChar/>
       <Options/>
       <LevelSecurity/>
-      <Button onClick={()=>console.log(options)} >Generar contraseña</Button>  
+      <BtnGeneratePassword/>
     </ContentContainer>
   )
 }

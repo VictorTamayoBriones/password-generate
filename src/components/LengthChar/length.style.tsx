@@ -24,5 +24,6 @@ export const LengthCharStyled = styled.div`
     }
     input{
         width: 100%;
+        cursor: pointer;
     }
 `;

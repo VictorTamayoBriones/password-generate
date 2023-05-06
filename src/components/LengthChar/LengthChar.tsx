@@ -1,12 +1,21 @@
 import React, { useState } from "react"
 import { LengthCharStyled } from "./length.style"
+import { useSelector } from 'react-redux';
+import { AppStore } from '../../redux/store';
+import { useDispatch } from "react-redux";
+import { handleLength } from "@/redux/states/length.slice";
 
 function LenghtChar() {
     
-    const [lengthCharValue, setLengthCharValue] = useState<string>('0')
+    const { length } = useSelector((store:AppStore)=>store)
+
+    const dispatch = useDispatch();
+
+    const [lengthCharValue, setLengthCharValue] = useState<string>(length.lengthValue)
 
     const handleChange = (e:React.ChangeEvent<HTMLInputElement>) =>{
         setLengthCharValue(e.target.value)
+        dispatch(handleLength(e.target.value))
     }
 
     return (
