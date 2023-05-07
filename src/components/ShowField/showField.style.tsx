@@ -17,6 +17,8 @@ export const ShowFieldStyled = styled.div<Props>`
         font-size: 16px;
         line-height: 24px;
         opacity: ${ (props)=>props.isShowingPlaceholder ? .4 : 1};
+        overflow: hidden;
+        text-overflow: ellipsis;
     }
 
     svg{

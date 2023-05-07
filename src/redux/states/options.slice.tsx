@@ -34,7 +34,7 @@ const INITIAL_STATE: IOptionsState = {
     },
     includeSynbols: {
         is_selected: false,
-        regex: "[*!·.,´ç{`+[}&|]"
+        regex: "[*!·.,´ç{`+}&|]"
     }
 }
 
