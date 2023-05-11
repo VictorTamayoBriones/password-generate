@@ -1,9 +1,9 @@
 import { useSelector } from 'react-redux'
-import { Button } from '@/components/Buttons'
 import { AppStore } from '@/redux/store'
 import RandExp from 'randexp';
 import { useDispatch } from 'react-redux';
 import { handlePasswordGenerated } from '@/redux/states/passwordGenerated.slice';
+import Button from '../../components/Buttons/Button/Button';
 
 
 
