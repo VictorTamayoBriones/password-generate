@@ -3,7 +3,8 @@ import { AppStore } from '@/redux/store'
 import RandExp from 'randexp';
 import { useDispatch } from 'react-redux';
 import { handlePasswordGenerated } from '@/redux/states/passwordGenerated.slice';
-import { Button } from '@/components/Buttons/Button';
+import { Button } from '@/components/buttons/Button';
+
 
 
 
