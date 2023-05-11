@@ -57,4 +57,9 @@ export const AlertStyled = styled.div`
             opacity: 0;
         }
     }
+
+    @media (max-width:670px){
+        top: 24px;
+        right: calc((100vw - 328px) / 2);
+    }
 `;
