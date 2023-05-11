@@ -10,6 +10,7 @@ export const ShowFieldStyled = styled.div<Props>`
     padding: 16px;
     margin: 24px 0;
     position: relative;
+    max-height: 24px;
 
     p{
         width: 95%;
