@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { ShowField } from "../ShowField";
+import { ShowField } from "../../components/ShowField";
 import { Copy } from "@/assets/icons";
 import { theme } from "@/theme";
 import { useDispatch } from "react-redux";

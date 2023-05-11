@@ -12,5 +12,6 @@ export const Container = styled.article`
     @media (max-width: 670px){
         width: 328px;
         height: 524px;
+        padding: 16px;
     }
 `;

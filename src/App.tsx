@@ -1,6 +1,6 @@
 import { Alert } from "./components/Alert"
 import { Container } from "./components/Container"
-import { Content } from "./components/Content"
+import { Content } from "./elements/Content"
 import { Main } from "./components/Main"
 
 function App() {

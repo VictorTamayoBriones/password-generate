@@ -1,5 +1,5 @@
 import { Lever } from '@/assets/icons'
-import { ShowField } from '../ShowField'
+import { ShowField } from '../../components/ShowField'
 
 import { theme } from '@/theme';
 import { FillProps } from '@/assets/icons/lever';

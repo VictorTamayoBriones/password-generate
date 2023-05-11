@@ -1,4 +1,4 @@
-import { CheckOption } from "../CheckOption"
+import { CheckOption } from "../../components/CheckOption"
 import { ContainerOptions } from "./options.style"
 
 function Options() {
