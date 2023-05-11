@@ -15,6 +15,7 @@ export const AlertStyled = styled.div`
     display: flex;
     overflow: hidden;
     animation: showAlert 4s ease-in-out;
+    z-index: 100;
 
     svg{
         margin-top: 13px;
