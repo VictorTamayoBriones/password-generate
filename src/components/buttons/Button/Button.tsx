@@ -11,7 +11,7 @@ interface Props{
 }
 
 
-function Button({children, bg, color, width, height,onClick, className}:Props) {
+export const Button = ({children, bg, color, width, height,onClick, className}:Props) =>{
   return (
     <ButtonStyled 
       onClick={()=> onClick && onClick()}
