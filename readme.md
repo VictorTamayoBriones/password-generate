@@ -20,3 +20,11 @@ npm install
 npm run dev
 ```
 Como resultado podremos acceder al proyecto en la ruta:  http://localhost:5173/
+
+## Screen shots
+![Initial satte](./src/assets/images/img_1.png)
+![Initial satte](./src/assets/images/img_2.png)
+![Initial satte](./src/assets/images/img_3.png)
+![Initial satte](./src/assets/images/img_4.png)
+![Initial satte](./src/assets/images/img_5.png)
+![Initial satte](./src/assets/images/img_6.png)
