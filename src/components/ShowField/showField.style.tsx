@@ -10,7 +10,7 @@ export const ShowFieldStyled = styled.div<Props>`
     padding: 16px;
     margin: 24px 0;
     position: relative;
-    max-height: 24px;
+    
 
     p{
         width: 95%;
@@ -20,6 +20,8 @@ export const ShowFieldStyled = styled.div<Props>`
         opacity: ${ (props)=>props.isShowingPlaceholder ? .4 : 1};
         overflow: hidden;
         text-overflow: ellipsis;
+        word-break: break-all;
+        white-space: nowrap;
     }
 
     svg{
